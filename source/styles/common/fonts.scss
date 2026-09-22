@@ -1,1 +1,8 @@
 /* здесь подключите шрифты */
+@use "mixins" as *;
+
+$primary-font: "PT Sans Narrow", sans-serif;
+
+@include font-face("PT Sans Narrow", 400, normal, "../../fonts/pt-sans-narrow.woff2");
+@include font-face("PT Sans Narrow", 700, normal, "../../fonts/pt-sans-narrow-bold.woff2");
+
